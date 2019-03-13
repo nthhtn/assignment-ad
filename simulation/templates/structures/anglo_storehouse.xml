@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic_storehouse">
+  <Cost>
+    <PopulationBonus>2</PopulationBonus>
+  </Cost>
+  <Identity>
+    <Civ>anglo</Civ>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/anglo/storehouse.xml</Actor>
+  </VisualActor>
+</Entity>

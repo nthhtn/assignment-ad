@@ -1,0 +1,7 @@
+{
+    "name": "assignment-ad",
+    "version": "1.0.0",
+    "label": "Assignment Mod",
+    "description": "This is an assignment of Software Maintenance course",
+    "dependencies": ["0ad>=0.0.23"]
+}

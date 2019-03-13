@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant file="biped/base_spearman_relax.xml">
+      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
+      <props>
+        <prop actor="props/units/helmets/anglo_sutton_hoo.xml" attachpoint="helmet"/>
+        <prop actor="props/units/heads/new/head_german_a.xml" attachpoint="head"/>
+        <prop actor="props/units/shields/anglo_champion_infantry.xml" attachpoint="shield"/>
+        <prop actor="props/units/weapons/norse_spear.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/norse_sword_sheath.xml" attachpoint="sheath_L"/>
+        <prop actor="props/units/capes/spearman_shield_relax.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Chainmail7a">
+      <textures>
+        <texture file="skeletal/norse/elite/chainmail7a.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Chainmail7b">
+      <textures>
+        <texture file="skeletal/norse/elite/chainmail7b.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Chainmail7c">
+      <textures>
+        <texture file="skeletal/norse/elite/chainmail7c.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Chainmail8a">
+      <textures>
+        <texture file="skeletal/norse/elite/chainmail8a.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Chainmail8b">
+      <textures>
+        <texture file="skeletal/norse/elite/chainmail8b.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Chainmail8c">
+      <textures>
+        <texture file="skeletal/norse/elite/chainmail8c.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/attack_capture.xml"/>
+    <variant file="biped/death_infantry.xml"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

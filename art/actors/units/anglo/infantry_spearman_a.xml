@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Base">
+      <mesh>skeletal/new/m_tunic_long.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/new/head_celt.xml" attachpoint="head"/>
+        <prop actor="props/units/shields/anglo_spearman_a.xml" attachpoint="shield"/>
+        <prop actor="props/units/weapons/norse_spear.xml" attachpoint="weapon_R"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="transparent_shirt1">
+      <textures>
+        <texture file="skeletal/norse/basic/transparent_shirt1.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="transparent_shirt2">
+      <textures>
+        <texture file="skeletal/norse/basic/transparent_shirt2.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="transparent_shirt3">
+      <textures>
+        <texture file="skeletal/norse/basic/transparent_shirt3.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="shirt2a">
+      <textures>
+        <texture file="skeletal/norse/basic/shirt2a.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="shirt2b">
+      <textures>
+        <texture file="skeletal/norse/basic/shirt2b.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="shirt2c">
+      <textures>
+        <texture file="skeletal/norse/basic/shirt2c.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/base_spearman_relax.xml"/>
+    <variant file="biped/carry_food.xml"/>
+    <variant file="biped/carry_meat.xml"/>
+    <variant file="biped/carry_wood.xml"/>
+    <variant file="biped/carry_stone.xml"/>
+    <variant file="biped/carry_metal.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/attack_capture.xml"/>
+    <variant file="biped/attack_slaughter.xml"/>
+    <variant file="biped/gather_tree.xml"/>
+    <variant file="biped/gather_grain.xml"/>
+    <variant file="biped/gather_fruit.xml"/>
+    <variant file="biped/gather_meat.xml"/>
+    <variant file="biped/gather_rock.xml"/>
+    <variant file="biped/gather_ore.xml"/>
+    <variant file="biped/gather_ruins.xml"/>
+    <variant file="biped/gather_praise.xml"/>
+    <variant file="biped/build.xml"/>
+    <variant file="biped/build_farm.xml"/>
+    <variant file="biped/death_infantry.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="shirt-weld">
+      <color>225 176 64</color>
+    </variant>
+    <variant frequency="1" name="shirt-madder">
+      <color>220 128 101</color>
+    </variant>
+    <variant frequency="1" name="shirt-woad">
+      <color>165 206 228</color>
+    </variant>
+  </group>
+  <material>objectcolor.xml</material>
+</actor>
