@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_cavalry_javelinist">
+  <Auras datatype="tokens">
+    units/heroes/brit_hero_boudicca
+  </Auras>
+  <Footprint replace="">
+    <Square width="4.5" depth="9.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>naza</Civ>
+    <VisibleClasses datatype="tokens">Chariot</VisibleClasses>
+    <GenericName>Chariot</GenericName>
+    <SpecificName>Razor the Lightning</SpecificName>
+    <Gender>male</Gender>
+    <History>Razor is a legendary monarch who encouraged education and improved legal system, military structure and his people's quality of life.</History>
+    <Icon>units/anglo_hero_alfred.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/celts/boudicca_chariot.xml</Actor>
+  </VisualActor>
+</Entity>

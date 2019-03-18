@@ -2,7 +2,7 @@
 <actor version="1">
 	<castshadow/>
 	<group>
-		<variant frequency="25" name="Anglo House A">
+		<variant frequency="1" name="Nazarick Fountain">
 			<mesh>structural/anglo_civil_center.dae</mesh>
 			<textures>
 				<texture file="structural/anglo_struct.png" name="baseTex"/>

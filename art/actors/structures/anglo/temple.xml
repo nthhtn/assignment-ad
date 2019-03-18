@@ -2,7 +2,7 @@
 <actor version="1">
 	<castshadow/>
 	<group>
-		<variant name="Anglo Church">
+		<variant name="Nazarick Church">
 			<mesh>structural/anglo_hc.dae</mesh>
 			<props>
 				<prop actor="props/structures/anglo/anglo_hc_nature.xml" attachpoint="root"/>

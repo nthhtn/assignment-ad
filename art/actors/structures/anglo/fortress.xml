@@ -2,7 +2,7 @@
 <actor version="1">
 	<castshadow/>
 	<group>
-		<variant frequency="5" name="Anglo fortress A">
+		<variant frequency="5" name="Nazarick fortress A">
 			<mesh>structural/anglo_fortress.dae</mesh>
 			<textures>
 				<texture file="structural/anglo_struct.png" name="baseTex"/>
@@ -17,7 +17,7 @@
 				<prop actor="props/units/helmets/anglo_copper_gate_helmet.xml" attachpoint="helmet3"/>
 			</props>
 		</variant>
-		<variant frequency="5" name="Anglo fortress B">
+		<variant frequency="5" name="Nazarick fortress B">
 			<mesh>structural/anglo_fortress_b.dae</mesh>
 			<textures>
 				<texture file="structural/anglo_struct.png" name="baseTex"/>
@@ -30,7 +30,7 @@
 				<prop actor="fauna/horse.xml" attachpoint="horse"/>
 			</props>
 		</variant>
-		<variant frequency="5" name="Anglo fortress C">
+		<variant frequency="5" name="Nazarick fortress C">
 			<mesh>structural/anglo_fortress_c.dae</mesh>
 			<textures>
 				<texture file="structural/anglo_struct.png" name="baseTex"/>

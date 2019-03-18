@@ -2,7 +2,7 @@
 <actor version="1">
 	<castshadow/>
 	<group>
-		<variant name="Anglo Dock">
+		<variant name="Nazarick Dock">
 			<mesh>structural/anglo_dock.dae</mesh>
 			<textures>
 				<texture file="structural/anglo_struct.png" name="baseTex"/>

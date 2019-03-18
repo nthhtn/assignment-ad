@@ -2,7 +2,7 @@
 <actor version="1">
 	<castshadow/>
 	<group>
-		<variant frequency="100" name="Anglo ">
+		<variant frequency="100" name="Nazarick ">
 			<mesh>structural/anglo_farmstead.dae</mesh>
 			<props>
 				<prop actor="props/structures/decals/dirt_4x2.xml" attachpoint="root"/>

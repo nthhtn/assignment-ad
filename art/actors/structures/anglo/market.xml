@@ -2,7 +2,7 @@
 <actor version="1">
 	<castshadow/>
 	<group>
-		<variant frequency="100" name="Anglo Market">
+		<variant frequency="100" name="Nazarick Market">
 			<mesh>structural/anglo_market.dae</mesh>
 			<props>
 				<prop actor="props/structures/decals/gravel_5x5.xml" attachpoint="root"/>
