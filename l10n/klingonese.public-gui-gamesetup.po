@@ -5,21 +5,14 @@
 # Translators:
 # Adam Jones <uk.adam.jones@gmail.com>, 2016
 # Etienne Beguin <eti.beguin@gmail.com>, 2017
-# Fabrizio Marana, 2015
-# Laurene Albrand, 2015
-# Laurene Albrand, 2015
-# leper <leper@wildfiregames.com>, 2014
-# leper <leper@wildfiregames.com>, 2014-2016
-# pilino1234 <pilino1234@zoho.eu>, 2015
+# leper <leper@wildfiregames.com>, 2016-2017
 # pilino1234 <pilino1234@zoho.eu>, 2016-2017
 # pilino1234 <pilino1234@zoho.eu>, 2017
-# s0600204, 2015
-# Tanksy <jake_anderson_007@hotmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: 0 A.D.\n"
-"POT-Creation-Date: 2017-06-04 09:05+0200\n"
-"PO-Revision-Date: 2017-06-07 11:13+0000\n"
+"POT-Creation-Date: 2017-06-04 09:07+0200\n"
+"PO-Revision-Date: 2017-06-07 11:14+0000\n"
 "Last-Translator: pilino1234 <pilino1234@zoho.eu>\n"
 "Language-Team: English (United Kingdom) (http://www.transifex.com/wildfire-games/0ad/language/en_GB/)\n"
 "MIME-Version: 1.0\n"
@@ -54,7 +47,7 @@ msgstr "wa' tayqeq picks qabDaj random HeghDI' starts Quj."
 #: gui/gamesetup/gamesetup.js:110
 #, javascript-format
 msgid "* %(username)s is not ready."
-msgstr "* %(username) s 'oHbe' SuH."
+msgstr "* %(username)s 'oHbe' SuH."
 
 #: gui/gamesetup/gamesetup.js:111
 msgid "I'm ready"
@@ -67,7 +60,7 @@ msgstr "Sep SuH QujmeH."
 #: gui/gamesetup/gamesetup.js:116
 #, javascript-format
 msgid "* %(username)s is ready!"
-msgstr "* %(username) s ghuS!"
+msgstr "* %(username)s ghuS!"
 
 #: gui/gamesetup/gamesetup.js:117
 msgid "Stay ready"
@@ -92,22 +85,22 @@ msgstr "choH Quj settings"
 #: gui/gamesetup/gamesetup.js:148
 #, javascript-format
 msgid "%(username)s has joined"
-msgstr "%ghom muv (username) s"
+msgstr "ghom muv %(username)s"
 
 #: gui/gamesetup/gamesetup.js:149
 #, javascript-format
 msgid "%(username)s has left"
-msgstr "%'el latlh loD (username) s"
+msgstr "'el latlh loD %(username)s"
 
 #: gui/gamesetup/gamesetup.js:150
 #, javascript-format
 msgid "%(username)s has been kicked"
-msgstr "%pup (username) s"
+msgstr "pup %(username)s"
 
 #: gui/gamesetup/gamesetup.js:151
 #, javascript-format
 msgid "%(username)s has been banned"
-msgstr "%banned (username) s"
+msgstr "banned %(username)s"
 
 #: gui/gamesetup/gamesetup.js:152
 #, javascript-format
@@ -332,7 +325,7 @@ msgstr "ghoqwI' Qotlh"
 
 #: gui/gamesetup/gamesetup.js:762
 msgid "Disable spies during the game."
-msgstr "[ghoqwI' Qujmey. ghaHDaq Qotlh BERNARDO."
+msgstr "ghoqwI' Qujmey. ghaHDaq Qotlh BERNARDO."
 
 #: gui/gamesetup/gamesetup.js:772
 msgid "Teams Locked"
@@ -371,7 +364,7 @@ msgstr "toggle vaj rated Quj leaderboard."
 #: gui/gamesetup/gamesetup.js:838
 #, javascript-format
 msgid "Press %(hotkey)s to autocomplete playernames or settings."
-msgstr "Press %(hotkey)sautocomplete playernames pagh settings."
+msgstr "Press %(hotkey)s autocomplete playernames pagh settings."
 
 #: gui/gamesetup/gamesetup.js:846
 msgid "Return to the lobby."
@@ -387,7 +380,7 @@ msgstr "start Qujmey!"
 
 #: gui/gamesetup/gamesetup.js:857
 msgid "Start a new game with the current settings."
-msgstr "[Quj chu' je settings Qu'mey potlh. ghaHDaq start BERNARDO."
+msgstr "Quj chu' je settings Qu'mey potlh. ghaHDaq start BERNARDO."
 
 #: gui/gamesetup/gamesetup.js:858
 msgid ""
@@ -403,7 +396,7 @@ msgstr "random"
 #: gui/gamesetup/gamesetup.js:1682 gui/gamesetup/gamesetup.js:1721
 #, javascript-format
 msgid "%(option)s:"
-msgstr "%(DuH)s:"
+msgstr "%(options)s:"
 
 #: gui/gamesetup/gamesetup.js:1687
 msgctxt "option value"
@@ -430,12 +423,12 @@ msgstr "AI: %(ai)s"
 
 #: gui/gamesetup/gamesetup.js:2004
 msgid "Unassigned"
-msgstr "unassign"
+msgstr "unassigned"
 
 #: gui/gamesetup/gamesetup.js:2079
 #, javascript-format
 msgid "== %(message)s"
-msgstr "== %(QIn)s"
+msgstr "== %(message)s"
 
 #: gui/gamesetup/gamesetup.js:2086
 msgid "Unknown Player"
@@ -444,12 +437,12 @@ msgstr "Sovbe'lu'bogh Qoylu' DawI'pu'"
 #: gui/gamesetup/gamesetup.js:2125
 #, javascript-format
 msgid "%(time)s %(message)s"
-msgstr "%(poH)s %(QIn)s"
+msgstr "%(time)s %(message)s"
 
 #: gui/gamesetup/gamesetup.js:2126
 #, javascript-format
 msgid "\\[%(time)s]"
-msgstr "\\[%(poH)s]"
+msgstr "\\[%(time)s]"
 
 #: gui/gamesetup/gamesetup.js:2127
 msgid "HH:mm"
@@ -458,12 +451,12 @@ msgstr "HH:mm"
 #: gui/loading/loading.js:48
 #, javascript-format
 msgid "Loading “%(map)s”"
-msgstr "load “%(He 'angbogh wItlha')s”"
+msgstr "load “%(map)s”"
 
 #: gui/loading/loading.js:52
 #, javascript-format
 msgid "Generating “%(map)s”"
-msgstr "generate “%(He 'angbogh wItlha')s”"
+msgstr "generate “%(map)s”"
 
 #: gui/aiconfig/aiconfig.xml:(caption):16
 msgid "AI Configuration"
@@ -550,7 +543,7 @@ msgstr "vay' wIloylaH wIv 'e' reset default (random)"
 
 #: gui/gamesetup/gamesetup.xml:(tooltip):97
 msgid "Reset all teams to the default."
-msgstr "[Hoch teams default. ghaHDaq reset BERNARDO."
+msgstr "Hoch teams default. ghaHDaq reset BERNARDO."
 
 #: gui/gamesetup/gamesetup.xml:(tooltip):108
 msgid "Pick a color."

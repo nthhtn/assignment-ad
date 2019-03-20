@@ -5,20 +5,13 @@
 # Translators:
 # Adam Jones <uk.adam.jones@gmail.com>, 2016
 # Etienne Beguin <eti.beguin@gmail.com>, 2017
-# Guillermo Grunwaldt <guigrunwaldt@gmail.com>, 2015
-# Laurene Albrand, 2015
-# Laurene Albrand, 2015
-# leper <leper@wildfiregames.com>, 2014
-# leper <leper@wildfiregames.com>, 2014-2016
-# pilino1234 <pilino1234@zoho.eu>, 2016
-# pilino1234 <pilino1234@zoho.eu>, 2016
+# leper <leper@wildfiregames.com>, 2016-2017
 # pilino1234 <pilino1234@zoho.eu>, 2016-2017
 # pilino1234 <pilino1234@zoho.eu>, 2017
-# Tanksy <jake_anderson_007@hotmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: 0 A.D.\n"
-"POT-Creation-Date: 2017-06-05 09:01+0200\n"
+"POT-Creation-Date: 2017-06-04 09:07+0200\n"
 "PO-Revision-Date: 2017-06-07 11:14+0000\n"
 "Last-Translator: pilino1234 <pilino1234@zoho.eu>\n"
 "Language-Team: English (United Kingdom) (http://www.transifex.com/wildfire-games/0ad/language/en_GB/)\n"
@@ -96,13 +89,13 @@ msgstr "delete"
 #: gui/session/menu.js:307
 #, javascript-format
 msgid "%(time)s %(message)s"
-msgstr "%(poH)s %(QIn)s"
+msgstr "%(time)s%(message)s"
 
 #: gui/session/menu.js:387
 #, javascript-format
 msgctxt "ceasefire"
 msgid "Time remaining until ceasefire is over: %(time)s."
-msgstr "poH ratlh until rIn ceasefire: %(poH)s."
+msgstr "poH ratlh until rIn ceasefire: %(time)s."
 
 #: gui/session/menu.js:411
 msgctxt "team"
@@ -140,50 +133,50 @@ msgstr "random unit, vo' chu'wI' bribe je vision SoH during vuS puj."
 #: gui/session/menu.js:717
 #, javascript-format
 msgid "Buy %(resource)s"
-msgstr "je' %(Sup)s"
+msgstr "je' %(resource)s"
 
 #: gui/session/menu.js:718
 #, javascript-format
 msgid "Sell %(resource)s"
-msgstr "ngev %(Sup)s"
+msgstr "ngev %(resource)s"
 
 #: gui/session/menu.js:823
 #, javascript-format
 msgid "%(openingTradingString)s, and %(garrisonedString)s."
-msgstr "%(openingtradingstring)s, je %(garrisonedstring)s."
+msgstr "%(openingTradingString)s, je %(garrisonedString)s."
 
 #: gui/session/menu.js:824
 #, javascript-format
 msgid ""
 "%(openingTradingString)s, %(garrisonedString)s, and %(inactiveString)s."
-msgstr "%(openingtradingstring)s, %(garrisonedstring)s, and %(inactivestring)s."
+msgstr "%(openingTradingString)s, %(garrisonedString)s, and %(inactiveString)s."
 
 #: gui/session/menu.js:827 gui/session/menu.js:898
 #, javascript-format
 msgid "%(openingTradingString)s."
-msgstr "%(openingtradingstring)s."
+msgstr "%(openingTradingString)s."
 
 #: gui/session/menu.js:828 gui/session/menu.js:897
 #, javascript-format
 msgid "%(openingTradingString)s, and %(inactiveString)s."
-msgstr "%(openingtradingstring)s, and %(inactivestring)s."
+msgstr "%(openingTradingString)s, and %(inactiveString)s."
 
 #: gui/session/menu.js:833
 #, javascript-format
 msgid "%(openinggarrisonedstring)s."
-msgstr "%(garrisonedstring)s."
+msgstr "%(garrisonedString)s."
 
 #: gui/session/menu.js:834
 #, javascript-format
 msgid "%(openingGarrisonedString)s, and %(inactiveString)s."
-msgstr "%(openinggarrisonedstring)s, and %(inactivestring)s."
+msgstr "%(openinggarrisonedstring)s, and %(inactiveString)s."
 
 #: gui/session/menu.js:837 gui/session/menu.js:901
 #, javascript-format
 msgid "There is %(inactiveString)s."
 msgid_plural "There are %(inactiveString)s."
 msgstr[0] "There is %(inactiveString)s."
-msgstr[1] "There are %(inactivestring)s."
+msgstr[1] "There are %(inactiveString)s."
 
 #: gui/session/menu.js:838
 msgid "There are no land traders."
@@ -194,28 +187,28 @@ msgstr "pagh puH traders tu'lu'."
 msgid "There is %(numberTrading)s land trader trading"
 msgid_plural "There are %(numberTrading)s land traders trading"
 msgstr[0] "There is %(numberTrading)s land trader trading"
-msgstr[1] "tu'lu' %(numbertrading)s puH traders mech"
+msgstr[1] "tu'lu' %(numberTrading)s puH traders mech"
 
 #: gui/session/menu.js:855
 #, javascript-format
 msgid "%(numberOfLandTraders)s inactive"
 msgid_plural "%(numberOfLandTraders)s inactive"
-msgstr[0] "%(numberoflandtraders)s inactive"
-msgstr[1] "%(numberoflandtraders)s inactive"
+msgstr[0] "%(numberOfLandTraders)s inactive"
+msgstr[1] "%(numberOfLandTraders)s inactive"
 
 #: gui/session/menu.js:860
 #, javascript-format
 msgid "%(numberOfLandTraders)s land trader inactive"
 msgid_plural "%(numberOfLandTraders)s land traders inactive"
-msgstr[0] "%(numberoflandtraders)s puH traders inactive"
-msgstr[1] "%(numberoflandtraders)s puH traders inactive"
+msgstr[0] "%(numberOfLandTraders)s puH traders inactive"
+msgstr[1] "%(numberOfLandTraders)s puH traders inactive"
 
 #: gui/session/menu.js:869
 #, javascript-format
 msgid "%(numberGarrisoned)s garrisoned on a trading merchant ship"
 msgid_plural "%(numberGarrisoned)s garrisoned on a trading merchant ship"
-msgstr[0] "%(numbergarrisoned)s garrisoned mech SuyDuj"
-msgstr[1] "%(numbergarrisoned)s garrisoned mech SuyDuj"
+msgstr[0] "%(numberGarrisoned)s garrisoned mech SuyDuj"
+msgstr[1] "%(numberGarrisoned)s garrisoned mech SuyDuj"
 
 #: gui/session/menu.js:874
 #, javascript-format
@@ -225,8 +218,8 @@ msgid ""
 msgid_plural ""
 "There are %(numberGarrisoned)s land traders garrisoned on a trading merchant"
 " ship"
-msgstr[0] "There is %(numbergarrisoned)s puH traders garrisoned mech SuyDuj"
-msgstr[1] "tu'lu' vatlhvI %(numbergarrisoned)s puH traders garrisoned mech SuyDuj"
+msgstr[0] "There is %(numberGarrisoned)s puH traders garrisoned mech SuyDuj"
+msgstr[1] "tu'lu' vatlhvI %(numberGarrisoned)s puH traders garrisoned mech SuyDuj"
 
 #: gui/session/menu.js:902
 msgid "There are no merchant ships."
@@ -236,22 +229,22 @@ msgstr "pagh SuyDuj tu'lu'."
 #, javascript-format
 msgid "There is %(numberTrading)s merchant ship trading"
 msgid_plural "There are %(numberTrading)s merchant ships trading"
-msgstr[0] "tu'lu' %(numbertrading)s SuyDuj mec"
-msgstr[1] "tu'lu' %(numbertrading)s SuyDuj mech"
+msgstr[0] "tu'lu' %(numberTrading)s SuyDuj mec"
+msgstr[1] "tu'lu' %(numberTrading)s SuyDuj mech"
 
 #: gui/session/menu.js:918
 #, javascript-format
 msgid "%(numberOfShipTraders)s inactive"
 msgid_plural "%(numberOfShipTraders)s inactive"
-msgstr[0] "%(numberofshiptraders)s inactive"
-msgstr[1] "%(numberofshiptraders)s inactive"
+msgstr[0] "%(numberOfShipTraders)s inactive"
+msgstr[1] "%(numberOfShipTraders)s inactive"
 
 #: gui/session/menu.js:923
 #, javascript-format
 msgid "%(numberOfShipTraders)s merchant ship inactive"
 msgid_plural "%(numberOfShipTraders)s merchant ships inactive"
-msgstr[0] "%(numberofshiptraders)s SuyDuj inactive"
-msgstr[1] "%(numberofshiptraders)s SuyDuj inactive"
+msgstr[0] "%(numberOfShipTraders)s SuyDuj inactive"
+msgstr[1] "%(numberOfShipTraders)s SuyDuj inactive"
 
 #: gui/session/menu.js:1100
 msgid "Resume"
@@ -581,7 +574,7 @@ msgstr "observer"
 #: gui/session/messages.js:829 gui/session/selection_details.js:82
 #, javascript-format
 msgid "\\[OFFLINE] %(player)s"
-msgstr "\\[observer] %(player)s"
+msgstr "\\[OFFLINE] %(player)s"
 
 #: gui/session/messages.js:910
 #, javascript-format

@@ -1,21 +1,25 @@
-# This file is Klingon language translated under assignment of Software Maintenance course.
+# Translation template for 0 A.D. — Empires Ascendant.
+# Copyright © 2014 Wildfire Games
+# This file is distributed under the same license as the 0 A.D. — Empires Ascendant project.
 # 
 # Translators:
-# Hien Nguyen
-# Anil Kumal
-# Bibek Bam
+# Adam Jones <uk.adam.jones@gmail.com>, 2016
+# Etienne Beguin <eti.beguin@gmail.com>, 2017
+# leper <leper@wildfiregames.com>, 2016-2017
+# pilino1234 <pilino1234@zoho.eu>, 2016-2017
+# pilino1234 <pilino1234@zoho.eu>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: 0 A.D.\n"
-"POT-Creation-Date: 2018-04-23 09:03+0200\n"
-"PO-Revision-Date: 2018-04-23 14:39+0000\n"
-"Last-Translator: Hien Nguyen\n"
+"POT-Creation-Date: 2017-06-04 09:07+0200\n"
+"PO-Revision-Date: 2017-06-07 11:14+0000\n"
+"Last-Translator: pilino1234 <pilino1234@zoho.eu>\n"
+"Language-Team: English (United Kingdom) (http://www.transifex.com/wildfire-games/0ad/language/en_GB/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: kl\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-
+"Language: en_GB\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: gui/civinfo/civinfo.js:96
 #, javascript-format

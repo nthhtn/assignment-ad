@@ -17,9 +17,9 @@
     <Civ>naza</Civ>
     <SpecificName>Krobelus</SpecificName>
     <GenericName>Woman</GenericName>
-    <Icon>units/celt_support_female_citizen.png</Icon>
+    <Icon>units/nazarick_female_citizen1copy.dds</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/norse/female_citizen.xml</Actor>
+    <Actor>units/nazarick/female_citizen.xml</Actor>
   </VisualActor>
 </Entity>
