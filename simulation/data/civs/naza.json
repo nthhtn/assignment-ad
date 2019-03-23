@@ -2,7 +2,7 @@
 	"Code": "naza",
 	"Culture": "naza",
 	"Name": "Nazarick",
-	"Emblem": "session/portraits/emblems/Village-icon-copy.jpg",
+	"Emblem": "session/portraits/emblems/nazarick_emblem.png",
 	"History": "Nazarick is a fictional civilization. They are known as shadow roamers of the world",
 	"Music": [
 		{
@@ -70,9 +70,6 @@
 		{
 			"Template": "units/naza_infantry_javelinist_b",
 			"Count": 2
-		},
-		{
-			"Template": "units/naza_cavalry_spearman_b"
 		}
 	],
 	"Formations": [

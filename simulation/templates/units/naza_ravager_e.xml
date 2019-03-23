@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/naza_ravager_a">
+  <Identity>
+    <Rank>Elite</Rank>
+    <SpecificName>Eredar</SpecificName>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/nazarick/ravager_e.xml</Actor>
+  </VisualActor>
+</Entity>

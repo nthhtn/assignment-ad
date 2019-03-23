@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_spearman">
+  <Builder>
+    <Entities datatype="tokens">
+      structures/{civ}_wonder
+      structures/{civ}_stables
+    </Entities>
+  </Builder>
+  <Attack>
+    <Melee>
+      <Hack>20.0</Hack>
+      <Pierce>0.0</Pierce>
+      <Crush>0.0</Crush>
+    </Melee>
+    <Charge>
+      <Hack>30.0</Hack>
+      <Pierce>0.0</Pierce>
+      <Crush>0.0</Crush>
+    </Charge>
+  </Attack>
+  <Identity>
+    <Civ>naza</Civ>
+    <SelectionGroupName>units/naza_infantry_spearman_b</SelectionGroupName>
+    <GenericName>Ravager</GenericName>
+    <SpecificName>Doom</SpecificName>
+    <History>The Ravager is a mystic unit of Nazarick civilization.</History>
+    <Icon>units/anglo_infantry_spearman.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/naza_infantry_spearman_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/nazarick/ravager_b.xml</Actor>
+  </VisualActor>
+</Entity>

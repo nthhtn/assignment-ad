@@ -3,11 +3,9 @@
 # This file is distributed under the same license as the 0 A.D. — Empires Ascendant project.
 # 
 # Translators:
-# Adam Jones <uk.adam.jones@gmail.com>, 2016
-# Etienne Beguin <eti.beguin@gmail.com>, 2017
-# leper <leper@wildfiregames.com>, 2016-2017
-# pilino1234 <pilino1234@zoho.eu>, 2016-2017
-# pilino1234 <pilino1234@zoho.eu>, 2017
+# Anil Kumal <anil.kumal@student.lut.fi>
+# Bibek Bam <bibek.bam@student.lut.fi>
+# Hien Nguyen <hien.nguyen@student.lut.fi>
 msgid ""
 msgstr ""
 "Project-Id-Version: 0 A.D.\n"
