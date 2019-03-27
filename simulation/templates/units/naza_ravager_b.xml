@@ -12,11 +12,6 @@
       <Pierce>0.0</Pierce>
       <Crush>0.0</Crush>
     </Melee>
-    <Charge>
-      <Hack>30.0</Hack>
-      <Pierce>0.0</Pierce>
-      <Crush>0.0</Crush>
-    </Charge>
   </Attack>
   <Identity>
     <Civ>naza</Civ>
@@ -24,7 +19,7 @@
     <GenericName>Ravager</GenericName>
     <SpecificName>Doom</SpecificName>
     <History>The Ravager is a mystic unit of Nazarick civilization.</History>
-    <Icon>units/anglo_infantry_spearman.png</Icon>
+    <Icon>units/nazarick_ravager.dds</Icon>
   </Identity>
   <Promotion>
     <Entity>units/naza_infantry_spearman_a</Entity>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant>
+      <mesh>skeletal/new/m_tunic_long.dae</mesh>
+      <props>
+        <prop actor="props/units/helmets/caro_cavalry_helmet.xml" attachpoint="helmet"/>
+        <prop actor="props/units/heads/new/head_german_a.xml" attachpoint="head"/>
+        <prop actor="props/units/shields/caro_lenticular_swordsman_e.xml" attachpoint="shield"/>
+        <prop actor="props/units/weapons/caro_sheath_sword.xml" attachpoint="sheath_L"/>
+        <prop actor="props/units/weapons/caro_cavalry_spear.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/helmets/byza_coif_cavalry_spearman_chainmail.xml" attachpoint="root"/>
+        <prop actor="props/units/capes/rider/spearman_relax_shield.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Chainmail2a">
+      <textures>
+        <texture file="skeletal/caro/elite/chainmail2a.png" name="baseTex"/>
+        <texture file="skeletal/caro/elite/chainmail2_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Chainmail2b">
+      <textures>
+        <texture file="skeletal/caro/elite/chainmail2b.png" name="baseTex"/>
+        <texture file="skeletal/caro/elite/chainmail2_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Chainmail2c">
+      <textures>
+        <texture file="skeletal/caro/elite/chainmail2c.png" name="baseTex"/>
+        <texture file="skeletal/caro/elite/chainmail2_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/base_cavalry_spearman_relax_shield.xml"/>
+    <variant file="biped/rider/carry_meat.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/rider/promotion_shield.xml"/>
+    <variant file="biped/rider/attack_slaughter_shield_hele.xml"/>
+    <variant file="biped/gather_meat.xml"/>
+    <variant file="biped/rider/death.xml"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

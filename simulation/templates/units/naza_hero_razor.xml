@@ -14,7 +14,7 @@
     <SpecificName>Razor the Lightning</SpecificName>
     <Gender>male</Gender>
     <History>Razor is a legendary monarch who encouraged education and improved legal system, military structure and his people's quality of life.</History>
-    <Icon>units/anglo_hero_alfred.png</Icon>
+    <Icon>units/nazarick_razor.dds</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/celts/boudicca_chariot.xml</Actor>

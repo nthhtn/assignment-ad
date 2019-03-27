@@ -30,8 +30,7 @@
       -units/{civ}_cavalry_swordsman_b
       -units/{civ}_cavalry_javelinist_b
       -units/{civ}_cavalry_archer_b
-      -units/{civ}_ravager_b
-  	</Entities>
+1  	</Entities>
     <Technologies datatype="tokens">
       speed_cavalry_01
       speed_cavalry_02
