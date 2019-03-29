@@ -22,7 +22,7 @@
     <Icon>units/nazarick_ravager.dds</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/naza_infantry_spearman_a</Entity>
+    <Entity>units/naza_ravager_a</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/nazarick/ravager_b.xml</Actor>

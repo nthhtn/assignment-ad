@@ -9,7 +9,7 @@
     <Icon>units/byza_cavalry_javelinist.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/byza_cavalry_javelinist_a</Entity>
+    <Entity>units/naza_cavalry_javelinist_a</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/byzantines/cavalry_javelinist_b_m.xml</Actor>
